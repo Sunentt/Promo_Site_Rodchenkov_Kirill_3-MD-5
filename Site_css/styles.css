@@ -8,7 +8,6 @@ body {
   line-height: 1.6;
 }
 
-/* ── NAV ── */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -31,7 +30,6 @@ body {
 }
 .nav-btn:hover { background: #ff7043; }
 
-/* ── ОБЩИЕ ── */
 .section-title {
   font-size: clamp(20px, 3.5vw, 56px);
   font-weight: 700; text-align: center;
@@ -47,7 +45,6 @@ body {
 }
 .btn-orange:hover { background: #ff7043; }
 
-/* ── HERO ── */
 .hero {
   background: #1a1a1a;
   padding: clamp(40px,6vw,100px) clamp(16px,4vw,64px);
@@ -80,7 +77,6 @@ body {
 .hero-card-name { font-size: clamp(12px,1vw,16px); font-weight: 500; margin-bottom: 4px; }
 .hero-card-sub { font-size: clamp(10px,0.8vw,12px); color: #d1d5dc; }
 
-/* ── FEATURES ── */
 .features {
   background: #252525;
   padding: clamp(32px,5vw,80px) clamp(16px,4vw,64px);
@@ -101,7 +97,6 @@ body {
 .feature-name { font-size: clamp(16px,1.5vw,28px); font-weight: 700; margin-bottom: 10px; }
 .feature-desc { font-size: clamp(12px,1vw,18px); color: #d1d5dc; line-height: 1.55; }
 
-/* ── HOW ── */
 .how {
   background: #1a1a1a;
   padding: clamp(32px,5vw,80px) clamp(16px,4vw,64px);
@@ -129,7 +124,6 @@ body {
 .step-title { font-size: clamp(14px,1.5vw,24px); font-weight: 700; margin-bottom: 8px; color: #ff5722; }
 .step-desc { font-size: clamp(12px,1vw,17px); color: #d1d5dc; }
 
-/* ── DETAILED PROFILES ── */
 .detailed-section {
   background: #252525;
   padding: clamp(32px,5vw,80px) clamp(16px,4vw,64px);
@@ -178,7 +172,6 @@ body {
 .profile-detail-label { font-size: clamp(8px,0.6vw,10px); color: #99a1af; margin-bottom: 4px; }
 .profile-detail-value { font-size: clamp(11px,0.9vw,15px); }
 
-/* ── ACHIEVEMENTS ── */
 .achievements {
   background: #1a1a1a;
   padding: clamp(32px,5vw,80px) clamp(16px,4vw,64px);
@@ -202,7 +195,6 @@ body {
 }
 .achievement-label { font-size: clamp(11px,1vw,18px); color: #d1d5dc; }
 
-/* ── CTA ── */
 .cta {
   background: #252525;
   padding: clamp(48px,7vw,100px) clamp(16px,4vw,64px);
@@ -211,7 +203,6 @@ body {
 .cta h2 { font-size: clamp(24px,5vw,64px); font-weight: 600; margin-bottom: clamp(12px,2vw,28px); line-height: 1.2; }
 .cta p { font-size: clamp(13px,1.5vw,24px); font-weight: 600; margin-bottom: clamp(24px,3vw,48px); }
 
-/* ── FOOTER ── */
 .footer {
   background: #181818; border-top: 1px solid #2a2a2a;
   padding: clamp(14px,2vw,28px) clamp(16px,4vw,64px);
@@ -222,7 +213,6 @@ body {
 .footer-logo span { color: #fff; }
 .footer-copy { font-size: clamp(10px,0.8vw,14px); color: #99a1af; }
 
-/* ── МЕДИАЗАПРОСЫ ── */
 @media (max-width: 834px) {
   .achievements-grid { grid-template-columns: repeat(2, 1fr); }
 }
